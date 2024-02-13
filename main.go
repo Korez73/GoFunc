@@ -13,7 +13,7 @@ func main() {
 	//Lib.SliceShareStorage()
 	//Lib.OuterLabel()
 
-	os.Args = append(os.Args, "test.txt")
+	os.Args = append(os.Args, "D:\\Repos\\gofunc\\lib\\ch5.funcreadfile.go")
 	lenargs := len(os.Args)
 	fmt.Println(lenargs)
 	Lib.ReadFile()
