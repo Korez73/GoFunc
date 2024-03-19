@@ -1,10 +1,8 @@
 package main
 
 import (
-	"fmt"
-	"os"
-
-	Lib "github.com/Korez73/gofunc/lib"
+	/*Lib "github.com/Korez73/gofunc/lib"*/
+	Ch7 "github.com/Korez73/gofunc/ch7"
 )
 
 func main() {
@@ -13,8 +11,9 @@ func main() {
 	//Lib.SliceShareStorage()
 	//Lib.OuterLabel()
 
-	os.Args = append(os.Args, "D:\\Repos\\gofunc\\lib\\ch5.funcreadfile.go")
-	lenargs := len(os.Args)
-	fmt.Println(lenargs)
-	Lib.ReadFile()
+	//os.Args = append(os.Args, "D:\\Repos\\gofunc\\lib\\ch5.funcreadfile.go")
+	//lenargs := len(os.Args)
+	//fmt.Println(lenargs)
+
+	Ch7.Demo() //.ReadFile()
 }
