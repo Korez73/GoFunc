@@ -17,6 +17,13 @@ func (lg LoggerAdapter) Log(message string) {
 }
 
 //implementation
+func NewSimpleLogic(l Logger, ds DataStore) SimpleLogic {
+	return SimpleLogic{
+		l:  l,
+		ds: ds,
+	}
+}
+
 type SimpleLogic struct {
 	l  Logger
 	ds DataStore

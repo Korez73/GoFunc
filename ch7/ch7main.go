@@ -6,4 +6,8 @@ package ch7
 
 func Demo() {
 	LogOutput("HI")
+
+	//this will replace the call to LogOutput
+	//should call the API???
+	//sl := NewSimpleLogic()
 }
