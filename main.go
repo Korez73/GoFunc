@@ -15,5 +15,5 @@ func main() {
 	//lenargs := len(os.Args)
 	//fmt.Println(lenargs)
 
-	Ch7.Demo() //.ReadFile()
+	Ch7.Main() //.ReadFile()
 }
